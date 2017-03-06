@@ -1,0 +1,249 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-01 09:44:19
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-06 14:04:36
+*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height:60px;
+    background-color: #333333;
+}
+.header h1{
+    float: left;
+    color: white;
+    line-height: 60px;
+    margin-left: 40px;
+}
+.header>.nav{
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+}
+.header li{
+    float: left;
+    margin-left: 30px;
+}
+li>a{
+    color: white;
+}
+.article{
+    background-color: #dedede;
+    width: 100%;
+    border:1px solid #dedede;
+}
+.article_1,.article_2,.article_3,.aside{
+    background-color: white;
+    width:1240px;
+    margin:20px auto;
+    border: 1px solid #cbcbcb;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+h3{
+    margin-top: 30px;
+}
+h4{
+    margin-top:22px;
+    color:#69686e;
+}
+.content{
+    font-size: 14px;
+    text-indent: 2em;
+    margin-top: 10px;
+    width: 1190px;
+    line-height: 22px;
+}
+.articleInfo{
+    font-size: 12px;
+    color: #6c6c6e;
+    margin-top: 20px;
+}
+.article_2>.content>ul{
+    list-style: none;
+}
+.image>p{
+    width:120px;
+    height: 124px;
+    border:1px solid #cecece;
+    margin-top:15px;
+}
+.image img{
+    width:100px;
+    height:81px;
+    margin:-13px 10px auto;
+}
+.image span{
+    display: block;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+}
+.image>h4{
+    color:black;
+}
+.article_3>table{
+    border-collapse:collapse
+}
+.article_3>ol{
+    margin-left:24px;
+    margin-top: 18px;
+    font-size: 14px;
+}
+ol>li{
+    margin-top:10px;
+}
+table{
+    margin-top: 20px;
+}
+table td{
+    border:1px solid #cccccc;
+    text-indent: 5px;
+}
+table tr:first-child>td:not(:last-child){
+    width:493px;
+}
+
+table tr:first-child>td:last-child{
+    width:207px;
+}
+table tr:first-child{
+    background-color: #333333;
+    color:white;
+}
+
+table tr:last-child>td{
+    background-color: #cccccc;
+    font-weight: bold;
+}
+.aside{
+    position: relative;
+}
+.asideTitle{
+    margin-left:20px;
+    margin-top:20px;
+}
+.asideTitle h3{
+    margin-left: 10px;
+    line-height: 39px;
+}
+.shuXian{
+    width:3px;
+    height:39px;
+    background-color: #cccccc;
+    float: left;
+}
+.aside .biaoDan{
+    margin-left: 288px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.address p:first-child>span{
+    float: left;
+}
+.address input,.password input{
+    width:127px;
+    height:20px;
+    border: 1px solid #cccccc;
+    margin-left: 12px;
+}
+.address input[value="请输入邮箱地址"],.password input[value="请输入密码"]{
+    text-indent: 0.2em;
+    font-size: 10px;
+}
+.address p:last-child{
+    color:#cccccc;
+    margin-top:10px;
+    margin-left:100px;
+}
+.password{
+    margin-top: 24px;
+}
+.password p:first-child{
+    margin-left: 24px;
+}
+.password p:first-child>span{
+    float: left;
+}
+.password p:nth-child(2)>input{
+    margin-left: 8px;
+}
+.password p:nth-child(2){
+    margin-top:10px;
+}
+.password p:last-child{
+    color:#cccccc;
+    margin-top:10px;
+    margin-left:100px;
+}
+.sex{
+    margin-left:60px;
+    margin-top:26px;
+}
+.sex input[value="man"]{
+    margin-left: 8px;
+}
+.sex input[value="woman"]{
+    margin-left: 5px;
+}
+.city{
+    margin-left:60px;
+    margin-top:12px;
+}
+.city select{
+    border:1px solid #cccccc;
+    margin-left: 8px;
+}
+.hobby{
+    margin-left:60px;
+    margin-top:12px;
+}
+.hobby div,.hobbytext{
+    float: left;
+    margin-right: 9px;
+}
+.describe{
+    clear:both;
+    margin-left: 36px;
+    margin-top: 40px;
+    padding-bottom: 71px;
+    overflow: hidden;
+}
+.describe span:first-child{
+    display: block;
+    float: left;
+}
+.describe textarea{
+    width:763px;
+    height:98px;
+    border: 1px solid #cccccc;
+    margin-left: 4px;
+    float: left;
+}
+.describe button{
+    clear: both;
+    position: absolute;
+    left:50%;
+    margin-left: -600px;
+    margin-top:111px;
+    width:1176px;
+    height:38px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #3355d0;
+    color:white;
+    font-size: 15px;
+}
+.footer{
+    background-color: black;
+    width:100%;
+    height: 70px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
